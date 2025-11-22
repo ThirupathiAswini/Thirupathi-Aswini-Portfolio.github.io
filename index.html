@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thirupathi Aswini Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header role="banner">
+    <div class="profile-photo">
+        <img src="assets/aswini passport size pic.jpg" alt="Aswini Profile Photo" />
+    </div>
+
+    <h1>Hi, I'm <span>Thirupathi Aswini</span></h1>
+    <p>
+        Frontend Developer | Digital Marketing Strategist | SEO Tools Expert | Tech Enthusiast
+        | Fresher
+    </p>
+    <p class="tagline">Passionate about creating impactful digital experiences</p>
+    <a href="mailto:aswinithirupathi825@gmail.com" class="cta-button" aria-label="Contact Aswini">Contact Me</a>
+</header>
+
+<main>
+    <section id="skills-section" aria-labelledby="skills-heading">
+        <h2 id="skills-heading">Skills</h2>
+        <div id="technical-skills-section" aria-labelledby="technical-skills-heading">
+            <h3 id="technical-skills-heading">Technical Skills</h3>
+            <ul id="technical-skills" role="list"></ul>
+        </div>
+        <div id="communication-skills-section" aria-labelledby="communication-skills-heading">
+            <h3 id="communication-skills-heading">Communication Skills</h3>
+            <ul id="communication-skills" role="list"></ul>
+        </div>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-heading">
+        <h2 id="projects-heading">Projects</h2>
+        <div id="project-container"></div>
+    </section>
+</main>
+
+<!-- Modal Structure -->
+<div id="modal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="modal-title" aria-modal="true">
+  <div class="modal-overlay" id="modal-overlay"></div>
+  <div class="modal-content" role="document">
+    <button class="modal-close" id="modal-close" aria-label="Close">&times;</button>
+    <h2 id="modal-title"></h2>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<footer role="contentinfo">
+    <p>Contact me: <a href="mailto:aswinithirupathi825@gmail.com">aswinithirupathi825@gmail.com</a> | Mobile: 6309018925</p>
+    <p>&copy; 2024 Aswini. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
